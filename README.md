@@ -104,10 +104,6 @@ window=6
 
 7. Fit time series models to the data and select best fit model.
 
-![ETS_summary](https://github.com/user-attachments/assets/9a622237-82a3-406a-8c95-33a7a30cbe07)
-
-![SARIMAX](https://github.com/user-attachments/assets/51c3d00d-e437-425b-893f-fd911c0c1fb7)
-
 8. Model validation: Generate forecasts for next 5 months and calculate forecasting error.
 
 9. Prediction: Predicting demand of electricity for next 12/24 months.
@@ -118,6 +114,10 @@ window=6
         ETS(Exponential Smoothing State Space Model)
         
         SARIMAX (Seasonal Autoregressive Integrated Moving Average with Exogenous Regressors Model)
+
+![ETS_summary](https://github.com/user-attachments/assets/9a622237-82a3-406a-8c95-33a7a30cbe07)
+
+![SARIMAX](https://github.com/user-attachments/assets/51c3d00d-e437-425b-893f-fd911c0c1fb7)
         
 **Evaluation Metrics**
 
