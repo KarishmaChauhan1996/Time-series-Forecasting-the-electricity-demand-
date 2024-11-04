@@ -61,10 +61,14 @@ This project involves the following steps:
 ![yearly_consumption_trend](https://github.com/user-attachments/assets/32ec00fa-d078-4fe8-a023-31c86c7c8c3f)
 ![seasonal_trend](https://github.com/user-attachments/assets/6e4ced30-6ed9-4c1f-a910-669048f8c2a6)
 ![decompose](https://github.com/user-attachments/assets/7d2a410e-7d32-4074-989a-5f424031a33a) ![decompose_additive](https://github.com/user-attachments/assets/7934b28e-3f99-422c-84df-68482a318a4e)
-3.Quantify relationship of data with past values: Autocorrelation, Partial Autocorrelation.
+3.Quantify relationship of data with past values:
+
+       Autocorrelation, Partial Autocorrelation.
 4. Dickey Fuller test: To check seasonality in the data.
 5. Make series stationary
+
         Logarithmic transformation
+   
         Moving Average
 6. Model Selection and Training: Fit time series models to the data and select best fit model.
 7. Model validation: Generate forecasts for next 5 months and calculate forecasting error.
