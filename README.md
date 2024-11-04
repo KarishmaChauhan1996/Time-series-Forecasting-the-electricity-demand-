@@ -135,6 +135,7 @@ We use several error metrics to assess model performance:
 ![model_diagnostics](https://github.com/user-attachments/assets/71a82ceb-9282-4f0d-a722-e3350a5eb186)
 
 #Errors should follow normal distribution
+
 #ACF of Errors - Error series should be white noise/random walk- There is no auto correlation among errors
 
 
