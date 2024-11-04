@@ -123,11 +123,11 @@ window=6
 
 We use several error metrics to assess model performance:
 
-RMSE (Root Mean Square Error)
+   RMSE (Root Mean Square Error)
 
-MAPE (Mean Absolute Percentage Error)
+   MAPE (Mean Absolute Percentage Error)
 
-RMSPE (Root Mean Square Percentage Error)
+   RMSPE (Root Mean Square Percentage Error)
 
 **Results**
 
