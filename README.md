@@ -33,12 +33,14 @@ seaborn
 re
 statsmodels
 
-Methodology
+**Methodology**
 
 This project involves the following steps:
 
 Data Cleaning and Preprocessing: Handle missing values if any, handle Datetime column for data type.
 Exploratory Data Analysis: Visualize the data to understand trends, seasonality, and any cyclic behavior.
+![trend](https://github.com/user-attachments/assets/1fee00b2-25c8-4246-8cef-49e389149753)
+
 Quantify relationship of data with past values: Autocorrelation, Partial Autocorrelation.
 Dickey Fuller test: To check seasonality in the data.
 Make series stationary
