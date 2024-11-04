@@ -8,29 +8,47 @@ We utilize various statistical and machine learning techniques to capture trends
 The objective of this project is to perform comprehensive time series analysis and forecasting on a given dataset. We explore the data, preprocess it, and apply various models to forecast future values. The project demonstrates the use of common forecasting methods and assesses their performance using error metrics to identify the best model for the dataset.
 
 **Table of Contents**
+
 Project Overview
+
 Data
+
 Usage
+
 Methodology
+
 Models Used
+
 Evaluation Metrics
+
 Results
+
 Conclusion
+
 License
 
 **Data**
+
 The dataset used in this project includes time-based data with one time series attributes. Columns in the dataset include:
 
 Date/Time: The timestamp or date at which each observation was recorded.
+
 Target Variable: The main variable to be forecasted (Electricity_Demand_in_TW).
 
 **Usage**
+
 pandas
+
 numpy
+
 matplotlib
+
 datetime
+
 seaborn
+
 re
+
 statsmodels
 
 **Methodology**
@@ -38,12 +56,12 @@ statsmodels
 This project involves the following steps:
 
 1. Data Cleaning and Preprocessing: Handle missing values if any, handle Datetime column for data type.
-2. Exploratory Data Analysis: Visualize the data to understand trends, seasonality, and any cyclic behavior.
+2.  Exploratory Data Analysis: Visualize the data to understand trends, seasonality, and any cyclic behavior.
 ![trend](https://github.com/user-attachments/assets/1fee00b2-25c8-4246-8cef-49e389149753)
 ![yearly_consumption_trend](https://github.com/user-attachments/assets/32ec00fa-d078-4fe8-a023-31c86c7c8c3f)
 ![seasonal_trend](https://github.com/user-attachments/assets/6e4ced30-6ed9-4c1f-a910-669048f8c2a6)
 ![decompose](https://github.com/user-attachments/assets/7d2a410e-7d32-4074-989a-5f424031a33a) ![decompose_additive](https://github.com/user-attachments/assets/7934b28e-3f99-422c-84df-68482a318a4e)
-3. Quantify relationship of data with past values: Autocorrelation, Partial Autocorrelation.
+3.Quantify relationship of data with past values: Autocorrelation, Partial Autocorrelation.
 4. Dickey Fuller test: To check seasonality in the data.
 5. Make series stationary
         Logarithmic transformation
@@ -56,6 +74,7 @@ This project involves the following steps:
 **Models used**
 
         ETS(Exponential Smoothing State Space Model)
+        
         SARIMAX (Seasonal Autoregressive Integrated Moving Average with Exogenous Regressors Model)
         
 **Evaluation Metrics**
@@ -63,7 +82,9 @@ This project involves the following steps:
 We use several error metrics to assess model performance:
 
 RMSE (Root Mean Square Error)
+
 MAPE (Mean Absolute Percentage Error)
+
 RMSPE (Root Mean Square Percentage Error)
 
 **Results**
