@@ -100,14 +100,13 @@ window=6
 ![rollingStat-MovingAverage-Window6](https://github.com/user-attachments/assets/c06ee90b-99a9-4718-8df2-5a52ab029496)
 
    
-6. Model Selection and Training:
+6. Model Selection and Training:Fit time series models to the data and select best fit model.
 
-7. Fit time series models to the data and select best fit model.
+7. Model validation: Generate forecasts for next 5 months and calculate forecasting error.
 
-8. Model validation: Generate forecasts for next 5 months and calculate forecasting error.
+8. Prediction: Predicting demand of electricity for next 12/24 months.
 
-9. Prediction: Predicting demand of electricity for next 12/24 months.
-10. Model Evaluation: Compare model performances based on error metrics.
+9. Model Evaluation: Compare model performances based on error metrics.
 
 **Models used**
 
@@ -131,6 +130,7 @@ We use several error metrics to assess model performance:
   
 **Results**
 
+![error](https://github.com/user-attachments/assets/aa0fa9f1-caed-45ad-b5e0-311a708bc4a5)
 
 
 **Conclusion**
