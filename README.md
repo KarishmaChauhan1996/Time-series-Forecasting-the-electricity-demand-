@@ -1,15 +1,11 @@
-**Time Series Analysis and Forecasting**
-
+# Overview
 This project involves analyzing and forecasting future demand for a time series dataset of Electricity demand.
 We utilize various statistical and machine learning techniques to capture trends, seasonality, and other patterns in the data, with the goal of making accurate future predictions.
 
-**Project Overview**
-
+# Objective
 The objective of this project is to perform comprehensive time series analysis and forecasting on a given dataset. We explore the data, preprocess it, and apply various models to forecast future values. The project demonstrates the use of common forecasting methods and assesses their performance using error metrics to identify the best model for the dataset.
 
 **Table of Contents**
-
-Project Overview
 
 Data
 
