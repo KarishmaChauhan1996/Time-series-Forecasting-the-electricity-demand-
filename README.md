@@ -21,8 +21,6 @@ Results
 
 Conclusion
 
-License
-
 **Data**
 
 The dataset used in this project includes time-based data with one time series attributes. Columns in the dataset include:
